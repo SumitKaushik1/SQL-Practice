@@ -1,0 +1,22 @@
+done =1) Display all employees where their salary is less then the Ford’s salary?== subquery fords salary need ,  find, query overall 
+
+done =2) Display all records in EMP table those were joined before SCOTT joined?=== subquery = find scott hire date, then see  oeverll query
+
+donee=3) Display department details with Minimum salary and maximum salary of that department?
+
+done=4) Display all the departments where department does have atleast one employee== subquery is deptno get  when group of deptno  the count ( deptono )>0 
+
+done=5) Display all employees those who are not managers?
+
+done=6) Display all the records for deptno which belongs to employee name JAMES?  first fin detaile in emp table and then  in dept tabel   for this dept table subquery depno no.in emp table b/ z deptno is common in both table
+
+done=7) Display all the records in emp table where salary should be less then or equal to ADAMS salary?== subquery= adams salary
+
+done=8) Display all subordinate those who are working under BLAKE?subquery black empno
+
+DONE=9) Display all record in emp table working in same deptno as of KING?SUBQUERY IS KIng deptno 
+
+done=10) Display all employee whose location is DALLAS?-- subquery deptno in dept table  b/ zit is common inboth table
+
+done=11) List ename, job, sal and department of all employees whose salary is not within the salary grade?
+

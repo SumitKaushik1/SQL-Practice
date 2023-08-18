@@ -1,0 +1,50 @@
+Order By
+
+done=1) Display emp table with salary descending order?
+
+done=2) Display all the records in emp table order by ascending deptno, descending salary?
+
+done=3) Display all employees in same order as they joined the company
+
+done=4) Display who is making highest commission?
+
+Miscellaneous
+
+done=1) Display all employees those who were joined in third quarter of 1981?
+
+done=2) Display distinct job from emp table?
+
+done=3) Display all the records in emp table where employee hired after 28-SEP-81 and before 03-DEC-81?
+
+done=4) Write a query that displays the employees whose names has letter 'T'
+
+done=5) Display the empno, ename, sal, and salary increased by 15%.
+
+done=6) Display all employees where ename start with J and ends with S
+
+done=7) Display all employees where jobs does not belong to PRESIDENT and MANAGER?
+
+DONE=8) Display all three figures salary in emp table
+
+done=9) Display all ename where first character could be anything, but second character should be L?
+
+GROUP BY AND GROUP FUNCTIONS
+
+done=1) Display the maximum salary in the emp table
+
+done=2) Display average salary for job SALESMAN
+
+done=3) Display sum of salary for each department.
+
+done=4) Display all department with Minimum salary and maximum salary?
+
+done=5) Display all the departments where we have more then 3 employees
+
+done=6) Display count of employees working as SALESMAN
+
+done=7) Display count of employees who has joined in year 1981
+
+
+
+
+

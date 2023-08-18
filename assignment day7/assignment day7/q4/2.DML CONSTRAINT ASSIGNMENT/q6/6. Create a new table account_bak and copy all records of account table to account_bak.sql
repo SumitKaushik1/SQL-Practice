@@ -1,0 +1,5 @@
+CREATE TABLE account_bak
+LIKE ACCOUNT;
+SELECT * FROM account_bak;
+INSERT INTO account_bak
+SELECT * FROM ACCOUNT;

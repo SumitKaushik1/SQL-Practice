@@ -1,0 +1,1 @@
+Prepare the DDL commands by looking at the diagram car_booking.png

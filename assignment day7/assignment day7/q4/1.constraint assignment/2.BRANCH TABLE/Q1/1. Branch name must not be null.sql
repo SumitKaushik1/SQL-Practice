@@ -1,0 +1,4 @@
+show tables;
+describe branch;
+ALTER TABLE BRANCH
+MODIFY COLUMN BNAME VARCHAR(30) NOT NULL ;

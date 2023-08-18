@@ -1,0 +1,2 @@
+ALTER TABLE LOAN 
+ADD FOREIGN KEY (bid) REFERENCES branch(bid);

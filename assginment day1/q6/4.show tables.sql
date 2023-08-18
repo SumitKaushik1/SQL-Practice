@@ -1,0 +1,2 @@
+select database();
+show tables;

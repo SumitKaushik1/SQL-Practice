@@ -1,0 +1,2 @@
+select database();
+use inventory
