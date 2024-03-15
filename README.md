@@ -53,3 +53,38 @@
     7566<br>
     
     Q9.&nbsp; Display the employee name, salary and commission and ensure that we consider the commission as 1500 for employees where commission is not paid.<br>
+
+
+----------------------------------------
+
+- **assignment day3** 
+
+  - Order By
+    
+    Q1.&nbsp; Display emp table with salary descending order?<br>
+    Q2.&nbsp; Display all the records in emp table order by ascending deptno, descending salary?<br>
+    Q3.&nbsp;  Display all employees in same order as they joined the company<br>
+    Q4.&nbsp;  Display who is making highest commission?<br>
+    
+  - Miscellaneous
+    
+    Q1.&nbsp;  Display all employees those who were joined in third quarter of 1981?<br>
+    Q2.&nbsp;  Display distinct job from emp table?<br>
+    Q3.&nbsp;  Display all the records in emp table where employee hired after 28-SEP-81 and before 03-DEC-81?<br>
+    Q4.&nbsp; Write a query that displays the employees whose names has letter 'T'<br>
+    Q5.&nbsp;  Display the empno, ename, sal, and salary increased by 15%.<br>
+    Q6.&nbsp;  Display all employees where ename start with J and ends with S<br>
+    Q7.&nbsp;  Display all employees where jobs does not belong to PRESIDENT and MANAGER?<br>
+    Q8.&nbsp;   Display all three figures salary in emp table<br>
+    Q9.&nbsp;  Display all ename where first character could be anything, but second character should be L?<br>
+    
+   - GROUP BY AND GROUP FUNCTIONS
+    
+    
+     Q1.&nbsp;  Display the maximum salary in the emp table<br>
+     Q2.&nbsp;  Display average salary for job SALESMAN<br>
+     Q3.&nbsp;  Display sum of salary for each department.<br>
+     Q4.&nbsp;  Display all department with Minimum salary and maximum salary?<br>
+     Q5.&nbsp;  Display all the departments where we have more then 3 employees<br>
+     Q6.&nbsp;  Display count of employees working as SALESMAN<br>
+     Q7.&nbsp;  Display count of employees who has joined in year 1981<br>
