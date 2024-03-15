@@ -32,7 +32,7 @@
   Q4.&nbsp; Display unique jobs from employee table<br>
   Q5.&nbsp; Display the output as follows<br>
             SCOTT is earning 800 dollars
-            ...
+            ...<br><br>
   Q6.&nbsp; Display the output from employee table in following format<br>
 
    Employee Name  Designation 
