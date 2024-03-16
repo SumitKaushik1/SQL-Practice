@@ -88,3 +88,51 @@
      Q5.&nbsp;  Display all the departments where we have more then 3 employees<br>
      Q6.&nbsp;  Display count of employees working as SALESMAN<br>
      Q7.&nbsp;  Display count of employees who has joined in year 1981<br>
+
+ 
+----------------------------------------
+
+
+- **Assignment day4**
+  
+   - HR Data Model
+ 
+    
+     Q1.&nbsp; Write a query in SQL to display the first name, last name, department number, and department name for each employee.<br>
+     Q2.&nbsp; Write a query in SQL to display the first and last name, department, city, and state province for each employee<br>
+
+   - Joins
+ 
+     
+      Q1.&nbsp; Display all records in EMP table those were joined before SCOTT joined?<br>
+      Q2.&nbsp; Display details of department where department has 3 employees?<br>
+      Q3.&nbsp; Display details of department with Minimum salary and maximum salary?<br>
+      Q4.&nbsp; Display all ename, sal, deptno,dname from emp, dept table where all department which has employees as well as department does not have any employees. This query should include non matching rows.<br>
+      Q5.&nbsp; Display all ename, sal, deptno from emp, dept table where all employees which has matching department as well as employee does not have any departments. This query should include non matching rows.<br>
+      Q6.&nbsp; Display all ename, sal, dname. Result must include all employees as well as all departments. This query should include non matching rows on both the tables.<br>
+      Q7.&nbsp; Display all ename, empno, dname from emp, dept table without joining two tables<br>
+      Q8.&nbsp; Display all the departments where department does not have any employees== according to deptno we have to join two table then it we can  show the particaular depatment<br>
+      Q9.&nbsp;Display all the departments where department does have atleast one employee<br>
+      Q10.&nbsp; Display all employees those who are not managers?<br>
+      Q11.&nbsp; Display all the records for deptno which belongs to employee name JAMES?== two table  show old sytax join<br>
+      Q12.&nbsp; Display all the records in emp table where salary should be less then or equal to ADAMS salary?<br>
+      Q13.&nbsp;Display ename, sal, grade, dname, loc for each employee.<br>
+      Q14.&nbsp; Display all employee whose location is DALLAS?<br>
+
+  - nested query or subquery
+ 
+    
+    Q1.&nbsp; Display all employees where their salary is less then the Ford’s salary?== subquery fords salary need ,  find, query overall<br>
+    Q2.&nbsp; Display all records in EMP table those were joined before SCOTT joined?=== subquery = find scott hire date, then see  oeverll query<br>
+    Q3.&nbsp; Display department details with Minimum salary and maximum salary of that department?<br>
+    Q4.&nbsp; Display all the departments where department does have atleast one employee<br>
+    Q5.&nbsp; Display all employees those who are not managers?<br>
+    Q6.&nbsp; Display all the records for deptno which belongs to employee name JAMES?  first fin detaile in emp table and then  in dept tabel   for this dept table subquery depno no.in emp table b/ z deptno is common in both table<br>
+    Q7.&nbsp; Display all the records in emp table where salary should be less then or equal to ADAMS salary?== subquery= adams salary<br>
+    Q9.&nbsp; Display all subordinate those who are working under BLAKE?subquery black empno<br>
+    Q10.&nbsp; Display all record in emp table working in same deptno as of KING?SUBQUERY IS KIng deptno<br>
+    Q11.&nbsp; Display all employee whose location is DALLAS?-- subquery deptno in dept table  b/ zit is common inboth table<br>
+    Q12.&nbsp; List ename, job, sal and department of all employees whose salary is not within the salary grade?<br>
+
+
+     
