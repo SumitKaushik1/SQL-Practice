@@ -135,4 +135,25 @@
     Q12.&nbsp; List ename, job, sal and department of all employees whose salary is not within the salary grade?<br>
 
 
-     
+----------------------------------------
+
+
+- **Assignment day5**
+
+![Screenshot (320265)](https://github.com/SumitKaushik1/SQL-Practice/assets/110432346/202ecadf-60fc-4cd3-b417-4dc0007d2c0b)
+![Screenshot (320266)](https://github.com/SumitKaushik1/SQL-Practice/assets/110432346/09d9c1f8-67e1-496e-8298-8aa46f32a9d1)
+![Screenshot (320267)](https://github.com/SumitKaushik1/SQL-Practice/assets/110432346/c8614c5a-5902-4256-8bba-bb6a3b43224e)
+![Screenshot (320268)](https://github.com/SumitKaushik1/SQL-Practice/assets/110432346/25a9ecc9-fec3-4156-b246-44c9b754eb05)
+
+
+
+
+
+
+
+
+
+
+
+
+
