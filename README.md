@@ -156,9 +156,34 @@
    ![Screenshot (320272)](https://github.com/SumitKaushik1/SQL-Practice/assets/110432346/47836312-4c97-4a02-bfad-b602c9917db3)
 
 
+----------------------------------------
 
 
+- **Assignment day6**
 
+  - ASSIGNMENT DAY 6
+    
+      - original 1
+        
+         - Prepare the DDL commands by looking at the diagram car_booking.png
+   
+         ![1_Car_Booking](https://github.com/SumitKaushik1/SQL-Practice/assets/110432346/1c12ea22-2f68-47ae-a820-2f5ee44ecf98)
+
+
+      - original 2
+
+        ![2_Simple_SupplyChain_DataModel](https://github.com/SumitKaushik1/SQL-Practice/assets/110432346/c9d6ed2c-ef58-4dc8-9565-2970b619abaf)
+        
+        Q1.&nbsp;Create a copy of customer table and name it as customer_bak.<br>
+        Q2.&nbsp;. Add not null constraint to customer name column in customer table<br>
+        Q3.&nbsp;Add check constraint on credit_limit column on customer table 
+           (credit_limit < 20000)<br>
+        Q4.&nbsp; Change the datatype of Addess column in Customer table to "Text"<br>
+        Q5.&nbsp; Drop foreign key constraint from Order table (pointing to customer table)<br>
+        Q6.&nbsp; Add foreign key constraint from Order table to cust_copy table<br>
+        Q7.&nbsp; Change the name of "Color" column in product table to "Colour"<br>
+        Q8.&nbsp; Add a column parent_product_id to Product table<br>
+        Q9.&nbsp; Add foreign key constraint to parent_product_id column which refers to Product.PID column<br>
 
 
 
