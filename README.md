@@ -245,8 +245,27 @@
              	  
              	- select * from tran_detail_copy
              	  order by tnumber;
-             	  
-	  
-            
+                
+       ----------------------------------------
+    
+    
+    - **assignment day10**          	  
+	
+		Q1.&nbsp;Write a PL/SQL program to arrange the number of two variable in such a way that the small number will store in num_small variable and large number will store in num_large variable.<br>
+		Q2.&nbsp;Write a PL/SQL program to check whether a number is even or odd<br>
+		Q3.&nbsp;Write a PL/SQL procedure to calculate the total salary for specific employee.<br>
+		Q4.&nbsp;Write a PL/SQL program to check whether a date falls on weekend i.e. SATURDAY or SUNDAY.<br>
+		Q5.&nbsp;Write a PL/SQL program to count number of employees in provided department.<br>
+		Q6.&nbsp;Write a PL/SQL program to display the description against a grade.<br>
+		Q7.&nbsp;Write a PL/SQL program to count number of employees in a specific department and check whether this department have any vacancies or not (considering that each department has 45 head count requirement). If any vacancies, how many vacancies are in that department.<br>
+		Q8.&nbsp;Write a PL/SQL program to display the description against a grade using CASE statement.<br>
+		Q9.&nbsp;Write a PL/SQL program to check whether a given number is positive, negative or zero.<br>
+		Q10.&nbsp;Write a PL/SQL program to check whether a given character is letter or digit.<br>
+		Q11.&nbsp;Write a PL/SQL program to display which day is a specific date.<br>
+		Q12.&nbsp;Write a program in PL/SQL to update the salary of a specifc employee by 8% if the salary exceeds the avg salary of their job.<br>
+		Q13.&nbsp;Write a program in PL/SQL to print 1st n numbers from provided input. 
+		  input : start with, end with, top n<br>
+	Q14.&nbsp;Write a program in PL/SQL to print the prime numbers between 1 to 50.<br>
+
             
             
