@@ -184,13 +184,69 @@
         Q7.&nbsp; Change the name of "Color" column in product table to "Colour"<br>
         Q8.&nbsp; Add a column parent_product_id to Product table<br>
         Q9.&nbsp; Add foreign key constraint to parent_product_id column which refers to Product.PID column<br>
+        
+    ----------------------------------------
+    
+    
+    - **assignment day7**
+    
+       ![BankSchema](https://github.com/SumitKaushik1/SQL-Practice/assets/110432346/17e4b5cb-2694-4278-95ea-3ddb6f808ed0)
+
+       - Constraints_Assignment
+    
+          Introduce following constraint on tables in Bank schema.
+
+            Customer table
+            1. Customer id in customer table must be unique and does not allow null values
+            2. Column fname must not allow space in it
+            3. First name, middle name and last name must not be same
+            4. Age of customer (based on date of birth) must be more then 10 years old.
+            
+            Branch Table
+            1. Branch name must not be null
+            2. Branch id must be unique and not null
+            
+            Account Table
+            1. Account number for each record must be unique
+            2. Customer Id must be of valid customer and must not be left as blank
+            3. opening balance must be more then 10000
+            4. Acount opening date must not be of past dates
+            5. Branch id (bid) must be of valid branch 
+            
+            Tran_detail Table
+            
+            1. Transaction number must be unique for each transaction
+            2. Account number must refer to valid account
+            
+            Loan Table
+            
+            1. Customer Id must be of valid customer and must not be left as blank
+            2. Branch id (bid) must be of valid branch 
+            3. One customer can take only one loan for each loan type
 
 
-
-
-
-
-
-
-
-
+       - DML_Assignment
+            
+            1. Update all Branch_id where referred as BR in place of B
+        eg: B00001 will become BR_00001
+            2. For testing purpose create a copy of tran_detail table and use bulk insert to load 50,000 records to it. Please make necessary arrangement to generate new TRAN_ID for each record
+            3. Update Transaction type and medium of transaction values to upper case for all records of transaction table.
+            4. Update phone number and base location of customer Abhishek (C00009) to 8976523191 and Pune
+            5. Add a new column customer_cnt to Branch table and update it's value based on count of customer that branch has.
+            6. Create a new table account_bak and copy all records of account table to account_bak
+            7. Update the account status as Inavtive for account of customer 'Amit Kumar Borkar'
+            8. Add a new transaction to account for all loan account customers as one time charge of 1000 Rs for current month.
+            9. Add Index on tnumber column on copy of tran_detail table and observe execution plan of following queries
+	
+             	- select count(tnumber) from  tran_detail_copy;
+             	
+             	- select * from tran_details_copy 
+             	  where dot > '2021-02-01';
+             	  
+             	- select * from tran_detail_copy
+             	  order by tnumber;
+             	  
+	  
+            
+            
+            
