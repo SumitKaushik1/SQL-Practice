@@ -327,8 +327,8 @@
 			Prepare a program to create a clone of all tables in the given schema.
 			Copy code
 	
+      _______________________________________________________________________
 
-      ----------------------------------------
   
 	  - Functions
 
