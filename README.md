@@ -272,5 +272,99 @@
     
     
     - **assignment day11**
+
+	  - Cursors
+
+		- 1. Display Employee Names
+			
+			Prepare a program to display the comma-separated list of employee names in the following format:
+			
+			Deptno Employees
+			
+			10 Scott, Smith, Jones
+			20 Allen, Ford
+			30
+			
+			css
+			Copy code
+		
+		- 2. Show Employee Details
+		
+			Prepare a program to show the details in the following format:
+			
+			Deptno Dname Employees
+			
+			10 SALES Scott, Smith, Jones
+			
+			yaml
+			Copy code
+		
+		- 3. Increase Number of Records for Performance Testing
+		
+			For performance testing, increase the number of records by 10 times for each department. For example, if there are 3 employees in dept 10, then we should be able to increase the employee count to 30 using the same/random values.
+			
+			Example:
+			Original Table:
+			| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL  | COMM | DEPTNO |
+			|-------|--------|-----------|------|------------|------|------|--------|
+			| 7782  | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450 | NULL | 10     |
+			| 7839  | KING   | PRESIDENT | NULL | 1981-11-17 | 5000 | NULL | 10     |
+			| 7934  | MILLER | CLERK     | 7782 | 1982-01-23 | 1300 | NULL | 10     |
+			
+			After Increasing:
+			| EMPNO | ENAME  | JOB       | MGR  | HIREDATE   | SAL  | COMM | DEPTNO |
+			|-------|--------|-----------|------|------------|------|------|--------|
+			| 7782  | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450 | NULL | 10     |
+			| 7783  | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450 | NULL | 10     |
+			| 7784  | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450 | NULL | 10     |
+			| 7785  | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450 | NULL | 10     |
+			| 7786  | CLARK  | MANAGER   | 7839 | 1981-06-09 | 2450 | NULL | 10     |
+			| ...   | ...    | ...       | ...  | ...        | ...  | ...  | ...    |
+			| 7934  | MILLER | CLERK     | 7782 | 1982-01-23 | 1300 | NULL | 10     |
+			
+			- 4. Create Clones of Tables in Given Schema
+			
+			Prepare a program to create a clone of all tables in the given schema.
+			Copy code
+	
+
+      ----------------------------------------
+  
+	  - Functions
+
+		  1. Write a program to take the input as empno and return the experience of employee in terms of number of years.
+			
+		  2. Write a program to take the input as deptno and return the comma separated list of employee names
+			
+		  3. Add a new column incentive to emp table. Write a program to calculate and update the incentive using following logic.
+			     If employees salary is more then avg salary of dept then incentive is 0
+				 If employees salary is less then avg salary of dept then incentive is 10% of salary
+			
+		  4. Write a program to get the count of employees working in provided deptno
+
+      ----------------------------------------
+         - Triggers
            
-            
+			1. Create a trigger to raise error if employee salary is less then avg salary of corresponding department.
+			
+			2. Add an additional column called to emp table called as last_updated_by and last_updated_date.
+			   Upon each update issued on emp table, these columns must be updated by database user and current date (use function current_user() and SYSDATE())
+			   
+			3.  Upon delete of department records from dept table. The corresponding employees records must be deleted as well. Implement this requirement with trigger
+			
+			4. Create a table with following design
+			
+			      Table NAme : scott_schema_audit
+				   Columns : table_name, operation_name, db_user, change_date
+			
+			   Populate this table each time the user perform any DML command on emp,dept or salgrade table. Sample data will look like
+			                 table_name, operation_name, db_user, change_date
+							 emp          update         root@localhost   2020-09-14
+							 dept         delete         root@localhost   2020-09-15
+							 ....
+					 
+	         
+
+				
+				
+					    
