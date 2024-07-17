@@ -1,5 +1,5 @@
 # SQL-Practice
-
+these are sql practice question
  - **assginment day1** 
    
    Q1.&nbsp; Install MySQL<br>
